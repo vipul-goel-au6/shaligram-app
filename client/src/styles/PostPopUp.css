@@ -1,0 +1,67 @@
+.horizontal {
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.horizontal .image {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 41vmax;
+  width: 50vmax;
+  border-right: solid 0.1px rgb(219, 219, 219);
+}
+
+
+
+.hor-content {
+  display: flex;
+  flex-direction: column;
+  width: 30vmax;
+  height: 40vmax;
+}
+
+.hor-content #mapComment {
+  border-top: 1px solid rgb(219, 219, 219) !important;
+  border-bottom: 1px solid rgb(219, 219, 219) !important;
+  top: 2vmax;
+  bottom: 10vmax;
+  overflow: auto;
+  height: 30vmax;
+}
+
+.hor-content #likescomments {
+  height: 9vmax !important;
+}
+.hor-content #comments {
+  border-top: 1px solid rgb(219, 219, 219);
+  margin: 10px;
+}
+.hor-content #likes {
+  display: flex;
+  margin-left: 20px;
+  margin-top: 10px;
+}
+
+.modalContent {
+  background-color: #fefefe;
+  border: 1px solid #888;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .horizontal {
+    display: flex !important;
+    flex-direction: column !important;
+    margin: 2% 4% !important;
+  }
+
+  .hor-content {
+    height: 40vmax !important;
+    width: 47vmax !important;
+    overflow: auto !important;
+  }
+  .horizontal .image{
+    height:45vmax !important;
+  }
+}

@@ -1,0 +1,124 @@
+/* .home-main{
+    width: 100%;
+    margin: auto;
+    display:flex;
+}
+.home-left{
+    width:60% !important;
+    height:max-content
+
+}
+.home-right{
+    width:40% !important;
+    width:max-content;
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.posts-card{
+    width:100% !important;
+    height: max-content !important;
+    margin-top:30px !important;
+}
+
+.status-card{
+    width:100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+
+.post-header{
+    width: 100% !important;
+    height: 70px !important;
+    display: flex;
+    align-items: center !important;
+    padding:20px;
+}
+.post-delete{
+    justify-self: end;
+}
+
+.likecomment{
+    display: flex;
+    margin-left: 20px;
+}
+
+.likes{
+    cursor: pointer;
+    
+} */
+
+.home-main {
+    width: 100%;
+    margin: auto;
+    display: flex;
+  }
+  .home-left {
+    width: 60% !important;
+    height: max-content;
+  }
+  .home-right {
+    width: 40% !important;
+    width: max-content;
+    margin-top: 30px;
+    margin-left: 30px;
+  }
+  
+  .posts-card {
+    width: 100% !important;
+    height: max-content !important;
+    margin-top: 30px !important;
+  }
+  
+  .status-card {
+    width: 100%;
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+  }
+  
+  .post-header {
+    width: 100% !important;
+    height: 70px !important;
+    display: flex;
+    align-items: center !important;
+    padding: 20px;
+  }
+  .post-delete {
+    justify-self: end;
+  }
+  
+  .likecomment {
+    display: flex;
+    margin-left: 20px;
+  }
+  
+  .likes {
+    cursor: pointer;
+  }
+  
+  .postdrop{
+      height:100px !important;
+      align-items: center !important;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .home-main {
+      display: flex !important;
+      flex-direction: column !important;
+    }
+    .home-left {
+      width: 90% !important;
+      margin: auto;
+    }
+    .home-right {
+      width: 90% !important;
+      margin: auto;
+      display: flex !important;
+      flex-direction: row !important;
+    }
+  }

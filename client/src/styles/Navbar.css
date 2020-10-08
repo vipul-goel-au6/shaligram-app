@@ -1,0 +1,88 @@
+/* nav {
+    display: flex;
+    width: 100vw;
+    height: 9.5% !important;
+    margin-bottom: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  nav div {
+      width: 62vmax;
+  }
+
+a{
+    color: black !important;
+}
+
+.mylogo{
+    font-family: 'Grand Hotel', cursive;
+}
+.navphoto{
+    margin-top: 8px ;
+}
+
+.dropitems{
+    height:140px !important;
+    width:150px !important;
+    overflow: unset;
+}
+
+.signout{
+    width:100% !important;
+    margin:auto;
+} */
+
+nav {
+    display: flex;
+    width: 100vw;
+    height: 9.5% !important;
+    margin-bottom: auto;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+  }
+
+  nav div {
+      width: 62vmax;
+  }
+
+a{
+    color: black !important;
+}
+
+.mylogo{
+    font-family: 'Grand Hotel', cursive;
+}
+.navphoto{
+    margin-top: 8px ;
+}
+
+.dropitems{
+    height:140px !important;
+    width:150px !important;
+    overflow: unset;
+}
+
+.signout{
+    width:100% !important;
+    margin:auto;
+}
+
+.mylogo{
+    font-size:2.5vmax !important
+}
+@media only screen and (max-width: 600px) {
+.mylogo{
+        display: none !important;
+      }
+      
+#nav-mobile{
+        float:left !important;
+      }
+      
+      
+}

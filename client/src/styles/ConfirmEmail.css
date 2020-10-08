@@ -1,0 +1,16 @@
+#mycard{
+    height: 400px !important;
+    width: 30vmax !important;
+    margin:auto ;
+}
+.otpcard form{
+    width:20vmax !important;
+}
+
+.otpcard{
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}

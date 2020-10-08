@@ -1,0 +1,16 @@
+.post-input{
+    max-width: 500px;
+    margin: 50px auto;
+    padding: 20px;
+    text-align: center;
+}
+
+.create-post{
+    max-width:500px !important;
+    max-height: fit-content;
+}
+h4{
+    text-align: center;
+    font-family: 'Grand Hotel', cursive;
+
+}

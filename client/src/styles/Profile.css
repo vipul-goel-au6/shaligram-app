@@ -1,0 +1,112 @@
+.outer-profile-div {
+  width: 100%;
+}
+.profile {
+  width: 70vmax;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin: 3vmax auto;
+  margin-top: 10px;
+}
+.profile-pic {
+  width: 12vmax;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+.details-div {
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin-left: 5vw;
+}
+.profile-name {
+  width: 130%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.profile-name span {
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-weight: 400;
+  font-size: 2vmax;
+  line-height: 32px;
+}
+.profile-name button {
+  border: solid 1px rgb(219, 219, 219);
+  box-shadow: none !important;
+  color: rgba(var(--i1d, 38, 38, 38), 1);
+  font-weight: 400;
+  width: 10vmax !important;
+}
+.profile-details {
+  display: flex;
+  justify-content: space-between;
+  width: 25vmax;
+}
+.profile-gallary {
+  border-top: solid 1px rgb(219, 219, 219);
+  display: flex;
+  flex-wrap: wrap;
+}
+.gallary-item {
+  display: flex;
+  margin: 1vmax;
+  width: 18.5vmax;
+  height: 18.5vmax;
+  border: 1px solid rgb(240, 233, 233);
+}
+
+.mymodal {
+  height: 41vmax !important;
+  width: 70vmax !important;
+  max-height: unset !important;
+  overflow: unset !important;
+}
+
+.myfollowermodal {
+  width: 30vmax !important;
+}
+.myfollowingmodal {
+  width: 30vmax !important;
+}
+#followings {
+  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.followingitems {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: none !important;
+}
+.followers-all {
+  display: unset !important;
+  width: 100%;
+  display: flex !important;
+  flex-direction: column !important;
+  align-items: center !important;
+  justify-content: center !important;
+}
+.follower-user {
+  display: unset !important;
+  display: flex;
+  align-items: center;
+}
+
+@media only screen and (max-width: 600px) {
+  .mymodal {
+    height: 150vmax !important;
+    width: 90vmax !important;
+    max-height: unset !important;
+    overflow: unset !important;
+  }
+}

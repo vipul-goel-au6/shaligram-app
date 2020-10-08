@@ -1,0 +1,33 @@
+.inbox_page {
+    height: 95%;
+    width: 100%;
+    border: solid 1px rgb(219, 219, 219);
+    display: flex;
+    flex-direction: row;
+}
+
+.inbox_left {
+    height: 100%;
+    width: 36%;
+    border-right: solid 1px rgb(219, 219, 219);
+}
+
+.inbox-right {
+    height: 100%;
+    width: 64%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat_logo {
+    height: fit-content;
+    width: fit-content;
+    border-radius: 50%;
+    padding: 1rem;
+    border: solid;
+}
+.chat_logo i {
+    transform: rotate(-30deg)
+}

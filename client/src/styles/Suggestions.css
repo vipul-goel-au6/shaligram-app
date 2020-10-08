@@ -1,0 +1,18 @@
+.suggestions{
+    display: flex;
+    flex-direction: column;
+}
+
+.suggesteduser{
+    display:flex;
+    align-items: center;
+    margin: 10px 10px;
+
+
+}
+
+.usernames{
+    display: flex;
+    flex-direction: column; 
+    margin-left: 10px;
+}

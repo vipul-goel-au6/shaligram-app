@@ -1,0 +1,19 @@
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height:100vh;
+  background-color: #fafafa;
+}
+
+
+
+.main {
+  width: 62vmax;
+  height: 90.5%;
+}
+
+.textcol {
+  color: black !important;
+}

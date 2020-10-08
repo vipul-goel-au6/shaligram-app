@@ -1,0 +1,85 @@
+.mycard span{
+    font-size:20px;
+    font-weight: bold;
+    color:grey;
+    height:40px;
+    width:350px;
+    text-align:center;
+    border:solid 1px white;
+}
+
+h2{
+
+    font-family: 'Grand Hotel', cursive;
+}
+#logo{
+
+    font-family: 'Grand Hotel', cursive;
+    text-align:center
+}
+.input-area{
+    width: 98% !important;
+    height: 3rem !important;
+    border: solid 1px rgb(219, 219, 219) !important;
+    margin: auto !important;
+    border-radius: 0.2rem !important;
+
+}
+.auth-label{
+    margin:auto !important;
+    font-size: 12px !important;
+    margin-left: 10px !important;
+}   
+
+.auth-form{
+    max-width:80%;
+    height: 300px;
+    margin:auto;
+}
+
+/* .authcard {
+    padding: 20px;
+    text-align: center;
+    width: 25%;
+    margin: 20px auto;
+    max-height:400px; 
+  } */
+  /* .mycard {
+    margin-top: 30px;
+  } */
+
+.mycard{
+    height:max-content;
+    width: 350px;
+    border: solid 1px rgb(219, 219, 219);
+    margin:10px auto
+}
+
+.lowerdiv{ 
+    margin:auto ;
+    width: 350px;;
+  height:max-content;
+  border: solid 1px rgb(219, 219, 219);
+  display: flex;
+  justify-content: center;
+}
+.auth-button{
+    width:100% !important;
+}
+
+#checkAvail{
+    border:unset !important;
+    color:rgb(13, 13, 116);
+    box-shadow: unset !important;
+    background-color: unset !important;
+}
+
+#signuptext{
+    font-size:20px;
+}
+
+#toast-container{
+    top:20px !important;
+    right: 40% !important;
+    left: 40% !important;
+}
